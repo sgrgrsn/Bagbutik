@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bagbutik  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Bagbutik  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Bagbutik Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/MortenGregersen/Bagbutik"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Bagbutik Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Bagbutik  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Service.html">Service</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/BagbutikService.html">BagbutikService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/JWT.html">JWT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Service.html#/s:8Bagbutik9FetchDataa">FetchData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ServiceError.html">ServiceError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Requests.html">Requests</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Request.html">Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RequestBody.html">RequestBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Parameters.html">Parameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EndpointParameter.html">EndpointParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AssociatedValueParameter.html">AssociatedValueParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Requests.html#/s:8Bagbutik14FieldParameterP">FieldParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Requests.html#/s:8Bagbutik15FilterParameterP">FilterParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Requests.html#/s:8Bagbutik16IncludeParameterP">IncludeParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ExistParameter.html">ExistParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SortParameter.html">SortParameter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/LimitParameter.html">LimitParameter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Responses.html">Responses</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/EmptyResponse.html">EmptyResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PagedResponse.html">PagedResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BinaryResponse.html">BinaryResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Property%20Wrappers.html">Property Wrappers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/NullCodable.html">NullCodable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p align="center">
+    <br />
+    <img src="https://raw.githubusercontent.com/MortenGregersen/Bagbutik/main/Assets/Bagbutik-logo.png" max-width="90%" alt="Bagbutik" />
+</p>
+
+<p align="center">
+    <b>Generated Swift code for the <a href="https://developer.apple.com/documentation/appstoreconnectapi">App Store Connect API</a> based on the official <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification">OpenAPI spec</a>.</b><br />
+    Created with <a href="https://github.com/SwiftGen/StencilSwiftKit">StencilSwiftKit</a> and <a href="https://github.com/apple/swift-crypto">swift-crypto</a><br />
+    <br />
+    <a href="https://swiftpackageindex.com/MortenGregersen/Bagbutik">
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMortenGregersen%2FBagbutik%2Fbadge%3Ftype%3Dswift-versions" alt="Swift versions" />
+    </a>
+    <a href="https://swiftpackageindex.com/MortenGregersen/Bagbutik">
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMortenGregersen%2FBagbutik%2Fbadge%3Ftype%3Dplatforms" alt="Platforms" />
+    </a>
+    <br />
+    <img src="https://github.com/MortenGregersen/Bagbutik/workflows/CI/badge.svg" alt="CI" />
+    <a href="https://fluxor.dev">
+        <img src="https://raw.githubusercontent.com/MortenGregersen/Bagbutik/gh-pages/badge.svg" alt="Documentation" />
+    </a>
+    <a href="https://codecov.io/gh/MortenGregersen/Bagbutik">
+        <img src="https://codecov.io/gh/MortenGregersen/Bagbutik/branch/main/graph/badge.svg?token=oJZWL49t0G"/>
+    </a>
+    <a href="https://twitter.com/mortengregersen">
+        <img src="https://img.shields.io/badge/twitter-@mortengregersen-blue.svg?style=flat" alt="Twitter" />
+    </a>
+</p>
+<h2 id='what-is-bagbutik' class='heading'>What is Bagbutik?</h2>
+
+<p><strong>Bag·bu·tik</strong> (noun) <strong>/ˈb̥a̝w-ˌb̥u-tiːk/</strong> - <em>(Danish) A room behind a store</em></p>
+
+<p>Bagbutik is two things, a command line tool for generating Swift code, and library with the generated code for the App Store Connect API. The command line tool decodes the official <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification">OpenAPI spec</a> for Apple&rsquo;s <a href="https://developer.apple.com/documentation/appstoreconnectapi">App Store Connect API</a>.</p>
+
+<p>The command line tool is only needed, when Apple publishes a new version of the spec. A <a href="https://github.com/MortenGregersen/Bagbutik/actions/workflows/check-for-new-spec.yml">GitHub Action</a> automatically checks for new versions of the spec and creates a pull request with the changes.</p>
+<h2 id='how-to-use-bagbutik' class='heading'>How to use Bagbutik</h2>
+
+<p>Bagbutik uses JSON Web Tokens (JWT) for authorization. You obtain the required keys from your organization&rsquo;s App Store Connect account.</p>
+
+<blockquote>
+<p>See <a href="https://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api">Creating API Keys for App Store Connect API</a> for how to create your keys.</p>
+</blockquote>
+
+<p>Here is a basic example for fetching all bundle IDs for iOS apps including related profiles sorted by seed ID and the bundle ID itself descending.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">service</span> <span class="o">=</span> <span class="k">try</span> <span class="kt">BagbutikService</span><span class="p">(</span><span class="nv">jwt</span><span class="p">:</span> <span class="o">.</span><span class="nf">init</span><span class="p">(</span>
+    <span class="nv">keyId</span><span class="p">:</span> <span class="s">"P9M252746H"</span><span class="p">,</span>
+    <span class="nv">issuerId</span><span class="p">:</span> <span class="s">"82067982-6b3b-4a48-be4f-5b10b373c5f2"</span><span class="p">,</span>
+    <span class="nv">privateKey</span><span class="p">:</span> <span class="s">"""
+    -----BEGIN PRIVATE KEY-----
+    MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgevZzL1gdAFr88hb2
+    OF/2NxApJCzGCEDdfSp6VQO30hyhRANCAAQRWz+jn65BtOMvdyHKcvjBeBSDZH2r
+    1RTwjmYSi9R/zpBnuQ4EiMnCqfMPWiZqB4QdbAd0E7oH50VpuZ1P087G
+    -----END PRIVATE KEY-----
+    """</span>
+<span class="p">))</span>
+<span class="k">let</span> <span class="nv">response</span> <span class="o">=</span> <span class="k">try</span> <span class="k">await</span> <span class="n">service</span><span class="o">.</span><span class="nf">request</span><span class="p">(</span>
+    <span class="o">.</span><span class="nf">listBundleIds</span><span class="p">(</span><span class="nv">fields</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="nf">profiles</span><span class="p">([</span><span class="o">.</span><span class="n">bundleId</span><span class="p">,</span> <span class="o">.</span><span class="n">name</span><span class="p">])],</span>
+                   <span class="nv">filters</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="nf">platform</span><span class="p">([</span><span class="o">.</span><span class="n">iOS</span><span class="p">])],</span>
+                   <span class="nv">includes</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="n">profiles</span><span class="p">],</span>
+                   <span class="nv">sorts</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="n">seedIdDescending</span><span class="p">,</span> <span class="o">.</span><span class="n">idDescending</span><span class="p">])</span>
+<span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>© 2022 under <a class="link" href="https://github.com/MortenGregersen/Bagbutik/blob/main/LICENSE" target="_blank" rel="external noopener">open source license</a>.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
